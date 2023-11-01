@@ -7,8 +7,6 @@ _ReSharper.*
 
 SvgSample/bin/
 SvgSample/obj/
-SvgSample/Properties/
 
 SvgSampleLibrary/bin/
 SvgSampleLibrary/obj/
-SvgSampleLibrary/Properties/

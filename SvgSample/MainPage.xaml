@@ -40,11 +40,22 @@
             Style="{StaticResource DefaultCustomElementStyle}"
             Text="Hello World" />
 
+
+        <!--  Loading from file (WORKS):  -->
+        <!--<sample:CustomElement
+            Grid.Row="1"
+            Grid.Column="1"
+            Icon="{x:Bind sample:Helpers.FromAssets('ms-appx:///Assets/sample.svg', 64, 64)}"
+            Style="{StaticResource DefaultCustomElementStyle}"
+            Text="Hello World" />-->
+
+        <!--  Loading from memory (WORKS):  -->
         <sample:CustomElement
             Grid.Row="1"
             Grid.Column="1"
             Icon="{x:Bind sample:Helpers.ToImageSource(sample:Helpers.SampleSvg, 64, 64)}"
             Style="{StaticResource DefaultCustomElementStyle}"
             Text="Hello World" />
+
     </Grid>
 </Page>
